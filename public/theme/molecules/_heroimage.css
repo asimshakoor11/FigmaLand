@@ -1,0 +1,38 @@
+
+.heroimage {
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0%;
+    /* Ensures that the gradient stays within the bounds of the hero image */
+}
+
+.heroimage .image {
+
+    width: 100%;
+}
+
+.heroimage .image img {
+    width: 100%;
+    display: block;
+
+    /* Ensures the image does not have extra space below it */
+}
+
+.heroimage .fading-color {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgb(0, 0, 0, 0) 100%);
+    pointer-events: none;
+    z-index: 1;
+    /* Ensures the gradient does not interfere with interactions */
+}
+
+@media (min-width: 768px) {
+    .heroimage {
+        padding: 40px 5%;
+        /* Ensures that the gradient stays within the bounds of the hero image */
+    }
+}

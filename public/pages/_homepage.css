@@ -1,0 +1,27 @@
+/* main.css */
+
+/* Atoms */
+@import '../../theme/atoms/_variables.css';
+@import '../../theme/atoms/_global.css';
+@import '../../theme/atoms/_buttons.css';
+@import '../../theme/atoms/_typography.css';
+
+/* Molecules */
+@import '../../theme/molecules/_navbar.css';
+@import '../../theme/molecules/_title-container.css';
+@import '../../theme/molecules/_heroimage.css';
+@import '../../theme/molecules/_testimonial-card.css';
+@import '../../theme/molecules/_social-links.css';
+
+/* Organisms */
+@import '../../theme/organisms/_section1.css';
+@import '../../theme/organisms/_section2.css';
+@import '../../theme/organisms/_section3.css';
+@import '../../theme/organisms/_section4.css';
+@import '../../theme/organisms/_section5.css';
+@import '../../theme/organisms/_section6.css';
+@import '../../theme/organisms/_section7.css';
+@import '../../theme/organisms/_footer.css';
+
+/* Templates */
+@import '../../theme/templates/_homepage.css';

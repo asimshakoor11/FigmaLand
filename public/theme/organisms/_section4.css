@@ -1,0 +1,19 @@
+
+/* section 4  */
+
+.section4 .content-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.section4 .content-container .img-cont {
+    overflow: hidden;
+}
+
+.section4 .content-container .img-cont img {
+    border-radius: 20px;
+}
+
+/* section 4  */

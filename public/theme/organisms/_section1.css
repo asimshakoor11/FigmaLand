@@ -1,0 +1,74 @@
+
+/* section1  */
+
+.section1 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .content {
+    max-width: 29rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    color: #fff;
+}
+
+.section1 h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section1 p {
+    text-align: center;
+}
+
+.section1 .button-group {
+    display: flex;
+    gap: 1rem;
+}
+
+.heroimage {
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0%;
+    /* Ensures that the gradient stays within the bounds of the hero image */
+}
+
+.heroimage .image {
+
+    width: 100%;
+}
+
+.heroimage .image img {
+    width: 100%;
+    display: block;
+
+    /* Ensures the image does not have extra space below it */
+}
+
+.heroimage .fading-color {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgb(0, 0, 0, 0) 100%);
+    pointer-events: none;
+    z-index: 1;
+    /* Ensures the gradient does not interfere with interactions */
+}
+
+@media (min-width: 768px) {
+    .heroimage {
+        padding: 40px 5%;
+        /* Ensures that the gradient stays within the bounds of the hero image */
+    }
+}
+
+
+/* section1  */

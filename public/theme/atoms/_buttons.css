@@ -1,0 +1,39 @@
+.btn-primary {
+    background-color: var(--button);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0.7rem 1.7rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--buttonhover);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0.7rem 1.7rem;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    border: 1px solid var(--buttonBorder);
+    background-color: var(--buttonhover);
+    color: white;
+}
+
+
+.btn-cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
